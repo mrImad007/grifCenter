@@ -1,0 +1,224 @@
+2023-03-15T08:25:16+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T08:30:38+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T08:34:57+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T08:39:57+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T08:46:34+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T08:49:56+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T08:55:12+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T08:59:53+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:04:56+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:10:07+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:15:27+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:19:53+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:24:51+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:31:58+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:47:52+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
+2023-03-15T09:50:20+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array","Array"],"element":"Array"} in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php:951
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(1406)
+#2 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/grifCenter/wp-content/plugins/elementor/core/base/document.php on line 951
+
